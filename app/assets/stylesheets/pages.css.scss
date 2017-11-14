@@ -1,0 +1,30 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+header h1 {
+  margin: 10px 0 0 10px;
+}
+header nav{
+  display: flex;
+  
+  float: right;
+  margin: 25px 0 0 0;
+  
+}
+header h4 {
+  margin: 0 10px;
+}
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+.jumbotron {
+  background: url("https://i2.wp.com/www.synthtopia.com/wp-content/uploads/2013/12/best-eurorack-synth-modules-of-2013.jpg?fit=720%2C540");
+  background-size: cover;
+  color: #fff;
+  
+}
+.jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron p {
+  text-shadow: 2px 2px black;
+}

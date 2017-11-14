@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome Portfolio</title>
+  <link type="text/css" rel="stylesheet" href="stylesheets/pages.css" /> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+  <body>
+    
+    <section class="main">
+      <div class="container">
+        <div class="row text-center">
+          <img id="vader" src="http://img2.looper.com/img/gallery/the-untold-truth-of-darth-vader/darth-vader-has-been-onscreen-more-than-any-other-star-wars-character-in-history-1482161165.jpg" />
+          <h3>Creative Development with a Passion for the Musical Arts</h3>
+          <p>I am a Music Instructor studying to be a Creative Developer.  I currently teach seven instruments: Guitar, Bass, Drums, Piano, Trumpet, Ukulele and Banjo.  I have a B.S. in Physics from Purdue University.  During my free time I like to use my Modular Synthesizer and learn about Modular Synthesis.  I play in a band named Hudson Crossing.  I sing, play Banjo and Harmonica.</p>
+          <!--<a class="btn btn-primary" href="#">View My Work</a>-->
+          <%= link_to 'Home', '/', {:class => 'btn btn-primary'}%>
+
+        </div>
+      </div>
+    </section>
+  
+ </body>
+</html>
